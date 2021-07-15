@@ -112,6 +112,12 @@ h4 {
   font-size: 16px;
   text-align: center;
 }
+.error {
+  color: red;
+  font-size: 10px;
+  padding: 20px;
+  text-align: left;
+}
 .button1 {
   padding-left: 100px;
   color: blue;
