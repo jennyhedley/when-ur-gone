@@ -1,4 +1,3 @@
-
 // When the user clicks on <div>, open the popup
 function popupFunction() {
   var popup = document.getElementById("myPopup");
@@ -43,14 +42,10 @@ function changeResults() {
 buttonRetry.addEventListener("click", changeResults);
 
 const sent2 = [
-  "417 Expectation Failed.",
-  "416 Requested Range Not Satisfiable.",
-  "413 Request Entity Too Large.",
-  "409 Conflict.",
-  "406 Not Acceptable.",
-  "403 Forbidden.",
-  "402 Payment Required.",
-  "400 Bad Request."
+  "👅" + "  " + "🍑",
+  "miss u" + "  " + "😈",
+  "wat u doin",
+  "😈" + "  " + "🍆" + "  " + "💦"
 ];
 
 const buttonOk = document.getElementById("button-2");
