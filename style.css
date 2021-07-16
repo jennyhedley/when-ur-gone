@@ -77,9 +77,9 @@ END Glitch hello-app default styles
 
 body {
 	background-color: white;
-  /*background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-white.png?v=1625534284236"); 
+  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-white.png?v=1625534284236"); 
   background-size: contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat; 
 	font: 0.8125em/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -90,6 +90,8 @@ img {
 }
 
 h1 {
+  padding-top:60px;
+  margin-left: 40px;
   color: black;
   font-family: 'Zen Tokyo Zoo', cursive;
   letter-spacing: .1em;
