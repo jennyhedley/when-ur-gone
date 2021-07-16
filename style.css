@@ -142,6 +142,10 @@ h4 {
   padding: 10px;
   max-height: 150px;
 }
+.imgS {
+  padding-bottom: 10px;
+  max-height: 20px;
+}
 /* card for notes sections */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -171,7 +175,7 @@ h4 {
   line-height: .8em;
   margin-left: 20px;
   margin-top: 20px;
-  padding-bottom: 450px;
+  padding-bottom: 350px;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
   margin-bottom: 20px;
@@ -215,6 +219,11 @@ h4 {
   width: 25%;
   padding: 0 6px;
 }
+.columnM {
+  float: left;
+  width: 30%;
+  padding: 0 6px;
+}
 .columnL {
   float: left;
   width: 35%;
@@ -237,6 +246,13 @@ h4 {
 }
 @media screen and (max-width: 700px) {
   .columnXs {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columnM {
     width: 100%;
     display: block;
     margin-bottom: 20px;
