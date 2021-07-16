@@ -130,6 +130,11 @@ h4 {
   text-align: center;
 }
 
+.emoji {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
 /* card for notes sections */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
