@@ -113,7 +113,7 @@ h4 {
   line-height: .8em;
   margin-left: 20px;
   margin-top: 20px;
-  padding-bottom: 350px;
+  padding-bottom: 400px;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
   margin-bottom: 20px;
@@ -235,6 +235,7 @@ h4 {
   bottom: 125%;
   left: 50%;
   margin-left: -90px;
+  line-height: 1.1em;
 }
 
 /* Popup arrow */
