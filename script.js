@@ -27,10 +27,11 @@ function getRandomFromList(list) {
 const sent1 = [
   "Your device is not connected.",
   "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
   "Connection unsuccessful.",
   "Your connection is unstable.",
-  "Not connected."
+  "Out of range.",
+  "Unexpected device.",
+  "Bad connection."
 ];
 
 const buttonRetry = document.getElementById("button-1");
