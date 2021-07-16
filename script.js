@@ -15,31 +15,11 @@ function popupFunction4() {
   var popup = document.getElementById("myPopup4");
   popup.classList.toggle("show");
 }
-function popupFunction5() {
-  var popup = document.getElementById("myPopup5");
-  popup.classList.toggle("show");
-}
 
 function getRandomFromList(list) {
   return list[Math.floor(Math.random() * list.length)];
 }
-const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection."
-];
 
-const buttonRetry = document.getElementById("button-1");
-
-function changeResults() {
-  const paragraph = document.getElementById("networkError");
-  paragraph.innerText = getRandomFromList(sent1);
-}
-buttonRetry.addEventListener("click", changeResults);
 
 const sent2 = [
   "👅" + "  " + "🍑",
