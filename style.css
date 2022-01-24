@@ -58,7 +58,9 @@ h4 {
   text-align: left;
 }
 .button1 {
-  padding-left: 88px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 70px;
   color: blue;
   background: white;
   border: white;
@@ -87,7 +89,7 @@ h4 {
 /* card for notes sections */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 40px 20px 40px 20px;
+  padding: 60px 20px 40px 20px;
   margin-left: 20px;
   margin-top: 20px;
   border-radius: 10px 10px 10px 10px;
@@ -109,7 +111,7 @@ h4 {
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
-  padding-top: 90px;
+  padding-top: 130px;
   line-height: .8em;
   margin-left: 20px;
   margin-top: 20px;
@@ -124,11 +126,10 @@ h4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 5px 3px 15px 3px;
   line-height: 1em;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin: 0 auto;
+  width: 190px;
   border-radius: 10px 10px 10px 10px;
   background-color: white;
-  margin-bottom: 20px;
   font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: black;
 }
