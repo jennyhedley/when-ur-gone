@@ -1,19 +1,22 @@
-/* Import fonts */
 @font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
+  font-family: 'helvetica neue';
+  src: local('Arial');
 }
+
 @font-face {
-  font-family: HK Grotesk;
+  font-family: 'helvetica neue';
   font-weight: bold;
-  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-    format("opentype");
+  src: local('Arial');
+}
+
+@font-face {
+  font-family: 'helvetica';
+  src: local('Arial');
 }
 
 body {
   background-color: white;
-  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-white.png?v=1625534284236");
+  background-image: url("img/notes-bg-white.png");
   background-size: contain;
   background-repeat: no-repeat;
   font: 0.8125em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -105,7 +108,7 @@ h4 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
-  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Fnotes-bg-black.png?v=1625534308760");
+  background-image: url("img/notes-bg-black.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -116,7 +119,7 @@ h4 {
 /* for text messages */
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("https://cdn.glitch.com/ad1e5b0b-3657-4400-8b42-9ba57664f218%2Ftxt-msg.png?v=1625534903060");
+  background-image: url("img/txt-msg.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
